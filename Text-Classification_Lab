@@ -1,0 +1,11 @@
+Create a vectorial representation of the data, then apply a learning algorithm by optimising the hyperparameters on the validation set. 
+If you need to use any function that depends on random number generators, use 42 as seed. 
+Test several representations. You may try functions of the libraries we have seen in class or make your own vectorial representation from scratch. 
+Once you have selected the best hyperparameters and preprocessing, retrain your model on the union of the training and validation sets, then compute the accuracy on the test set.
+
+Report your test performance on Moodle. In Moodle you are also supposed to upload the notebook in .py format (Menu File->Download->Download .py) 
+In the file with your code motivate any significant choice you made and all different preprocessing you attempted (clearly highlight the best one, though).
+
+Bonus Exercise for your best model, print the 30 tokens whose corresponding parameter have highest absolute value. 
+What do you think of this list? Does it make sense? Are all tokens expected?
+
